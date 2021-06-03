@@ -2,7 +2,7 @@
 # CSC675-775 Section 03 Database Systems
 Welcome to Database Systems!. Please modify this README file with the following info: 
 
-1. Your name, and student id here. Otherwise, I don't know who you are and I cannot grade your work
+1. Luis Alfaro, 920648466. Otherwise, I don't know who you are and I cannot grade your work
 
 2. Update this table of assignments. Set to done after one of the assignments is completed:
 
