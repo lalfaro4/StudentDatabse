@@ -1,5 +1,5 @@
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=4838435&assignment_repo_type=AssignmentRepo)
-# CSC675-775 Section 03 Database Systems
+# CSC675 Section 01 Database Systems
 Welcome to Database Systems!. Please modify this README file with the following info: 
 
 1. Luis Alfaro, 920648466. Topic for M1, M2 and M3: STUDENT RECORD KEEPING SYSTEM DATABASE.
