@@ -7,6 +7,21 @@ Change "1" to "one" in the quantitative component of the Database Requirments.
 
 # Milestone 1: The Semantic-Conceptual Model 
 
+# Instructor's Feedback 
+
+```
+Grade: 14/20
+
+This is a good milestone. Unfortunatly, you submitted the milestone late. Next time try to submit on time to avoid points penalization and therefore get a good grade. 
+
+1. Late Submission -4
+2. New sections must begin in a new page. -0.25
+2. Database requirements cannot have numeric values for the quantitable component. Instead of "1" it needs to be "one" -1
+3. ERD: missing aggregation -0.25
+
+
+```
+
 The goal of this milestone is to create a complete technical document that will define in detail the conceptual 
 design and architecture of your database system. Note that this milestone is a professional document that is read 
 by technical and non-technical people and teams (i,e CEO, CTO, Project Managers, Founders, Engineers, Testers....).
