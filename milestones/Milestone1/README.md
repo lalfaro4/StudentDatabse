@@ -1,3 +1,10 @@
+# Changes Done for Milestone 1V2
+Add aggregation to the ERD so a Faculty Member can monitor students researching animals.
+Each section is now at the start of a new page.
+Change "1" to "one" in the quantitative component of the Database Requirments.
+
+
+
 # Milestone 1: The Semantic-Conceptual Model 
 
 The goal of this milestone is to create a complete technical document that will define in detail the conceptual 
