@@ -1,5 +1,11 @@
 # Milestone 2: The Relational Model 
 
+# Instructor Feedback
+
+```
+EER section is incomplete. Please read carefully the README file guidelines for this section 
+```
+
 The goal of this milestone is to create a complete technical document that will define in detail the logical 
 design and architecture of your database system. Note that this milestone is a professional document that is read by 
 technical and non-technical people and teams (i,e CEO, CTO, Project Managers, Founders, Engineers, Testers....).
