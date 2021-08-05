@@ -13,12 +13,12 @@ import database as db
 # environment variables
 token = os.environ['DISCORD_TOKEN']
 server = os.environ['DISCORD_GUILD']
-server_id = os.environ['SERVER_ID']  # optional
-channel_id = os.environ['CHANNEL_ID']  # optional
+#server_id = os.environ['SERVER_ID']  # optional
+#channel_id = os.environ['CHANNEL_ID']  # optional
 
 # database connection
 # secret keys related to your database must be updated. Otherwise, it won't work
-db_conn = db.connect()
+#db_conn = db.connect()
 # bot events
 client = discord.Client()
 
@@ -41,21 +41,25 @@ async def on_message(message):
     :param message: the message from the user. Note that this message is passed automatically by the Discord API
     :return: VOID
     """
-    response = None # will save the response from the bot
-    if message.author == client.user:
+    channels = ["general", "commands"]
+    
+    #print(channel)
+    if str(message.channel) in channels:
+      if message.author == client.user:
         return # the message was sent by the bot
-    if message.type is discord.MessageType.new_member:
+      if message.type is discord.MessageType.new_member:
+        print ("HERE2")
         response = "Welcome {}".format(message.author) # a new member joined the server. Welcome him.
-    else:
+      else:
         # A message was send by the user.
         msg = message.content.lower()
-        if "milestone3" in msg:
-            response = "I am alive. Signed: 'your bot'"
-    if response:
+        response = await db.response(msg)
+        if response:
         # bot sends response to the Discord API and the response is show
         # on the channel from your Discord server that triggered this method.
-        embed = discord.Embed(description=response)
-        await message.channel.send(embed=embed)
+        
+          embed = discord.Embed(description=response)
+          await message.channel.send(embed=embed)
 
 
 try:
@@ -65,3 +69,5 @@ except:
     print("Bot is offline because your secret environment variables are not set. Head to the left panel, " +
           "find the lock icon, and set your environment variables. For more details, read the README file in your " +
           "milestone 3 repository")
+
+
